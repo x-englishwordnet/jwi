@@ -262,7 +262,6 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 		IVersion ver = IVersion.NO_VERSION;
 		for (IDataSource<?> dataSrc : srcs)
 		{
-
 			// if no version to set, ignore
 			if (dataSrc.getVersion() == null)
 				continue;
@@ -278,7 +277,6 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 			if (!ver.equals(dataSrc.getVersion()))
 				return IVersion.NO_VERSION;
 		}
-
 		return ver;
 	}
 
@@ -323,7 +321,6 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 		{
 			lifecycleLock.unlock();
 		}
-
 	}
 
 	/*
@@ -397,7 +394,6 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 			{
 				e.printStackTrace();
 			}
-
 			return true;
 		}
 		finally
@@ -517,11 +513,9 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 	 */
 	protected <T> ILoadableDataSource<T> createDataSource(File file, IContentType<T> type, int policy) throws IOException
 	{
-
 		ILoadableDataSource<T> src;
 		if (type.getDataType() == DataType.DATA)
 		{
-
 			src = createDirectAccess(file, type);
 			src.open();
 			if (policy == IMMEDIATE_LOAD)
@@ -681,7 +675,6 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 		// if this does not map to an adjusted type, we will check under it directly
 		if (actualType == null)
 			actualType = type;
-
 		return (ILoadableDataSource<T>) fileMap.get(actualType);
 	}
 
@@ -712,7 +705,6 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 	 */
 	protected class JWIBackgroundLoader extends Thread
 	{
-
 		// cancel flag
 		private transient boolean cancel = false;
 
@@ -775,7 +767,6 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 				e.printStackTrace();
 			}
 		}
-
 	}
 
 	/**
@@ -859,5 +850,4 @@ public class FileProvider implements IDataProvider, ILoadable, ILoadPolicy
 	{
 		return dir.exists() && dir.isDirectory();
 	}
-
 }

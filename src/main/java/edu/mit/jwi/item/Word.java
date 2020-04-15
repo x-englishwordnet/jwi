@@ -80,7 +80,6 @@ public class Word implements IWord
 	 */
 	public Word(ISynset synset, IWordID id, int lexID, AdjMarker adjMarker, List<IVerbFrame> frames, Map<IPointer, ? extends List<IWordID>> pointers)
 	{
-
 		// check arguments
 		if (synset == null)
 			throw new NullPointerException();
@@ -268,7 +267,6 @@ public class Word implements IWord
 	 */
 	@Override public boolean equals(Object obj)
 	{
-
 		// check nulls
 		if (this == obj)
 			return true;
@@ -423,5 +421,4 @@ public class Word implements IWord
 			sb.append(Character.toUpperCase(str.charAt(i)));
 		return sb.toString();
 	}
-
 }

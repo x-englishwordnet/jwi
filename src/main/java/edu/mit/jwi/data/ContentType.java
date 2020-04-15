@@ -162,7 +162,6 @@ public class ContentType<T> implements IContentType<T>
 	// initialization for static content type set
 	static
 	{
-
 		// get all the fields containing ContentType
 		Field[] fields = ContentType.class.getFields();
 		List<Field> instanceFields = new ArrayList<>();
@@ -289,5 +288,4 @@ public class ContentType<T> implements IContentType<T>
 		}
 		throw new IllegalStateException("Great Scott, there's been a rupture in the space-time continuum!");
 	}
-
 }

@@ -172,7 +172,6 @@ public class DataType<T> implements IDataType<T>
 			// make the value set unmodifiable
 			dataTypes = Collections.unmodifiableSet(hidden);
 		}
-
 		return dataTypes;
 	}
 
@@ -202,7 +201,6 @@ public class DataType<T> implements IDataType<T>
 			if (containsOneOf(name, typePatterns) && containsOneOf(name, posPatterns))
 				return file;
 		}
-
 		return null;
 	}
 
@@ -228,5 +226,4 @@ public class DataType<T> implements IDataType<T>
 				return true;
 		return false;
 	}
-
 }

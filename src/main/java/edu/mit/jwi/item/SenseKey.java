@@ -383,7 +383,6 @@ public class SenseKey implements ISenseKey
 	 */
 	public static String toString(ISenseKey key)
 	{
-
 		// figure out appropriate size
 		int size = key.getLemma().length() + 10;
 		if (key.isAdjectiveSatellite())
@@ -426,5 +425,4 @@ public class SenseKey implements ISenseKey
 		}
 		return sb.toString();
 	}
-
 }

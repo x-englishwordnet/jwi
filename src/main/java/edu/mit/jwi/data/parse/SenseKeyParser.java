@@ -107,7 +107,6 @@ public class SenseKeyParser implements ILineParser<ISenseKey>
 			// get head_id
 			begin = end + 1;
 			int head_id = Integer.parseInt(key.substring(begin));
-
 			return new SenseKey(lemma, lex_id, pos, lexFile, head_word, head_id, key);
 		}
 		catch (Exception e)
@@ -138,5 +137,4 @@ public class SenseKeyParser implements ILineParser<ISenseKey>
 			lexFile = UnknownLexFile.getUnknownLexicalFile(lexFileNum);
 		return lexFile;
 	}
-
 }

@@ -129,7 +129,6 @@ public class Pointer implements IPointer
 	 */
 	protected Object readResolve()
 	{
-
 		// check and see if this symbol matches DERIVED_FROM_ADJ (which is
 		// excluded from the pointer map because it is ambiguous)
 		if (DERIVED_FROM_ADJ.getSymbol().equals(symbol) && DERIVED_FROM_ADJ.getName().equals(name))
@@ -168,7 +167,6 @@ public class Pointer implements IPointer
 	// class initialization code
 	static
 	{
-
 		// get the instance fields
 		Field[] fields = Pointer.class.getFields();
 		List<Field> instanceFields = new ArrayList<>();

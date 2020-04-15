@@ -92,7 +92,6 @@ public class DirectAccessWordnetFile<T> extends WordnetFile<T>
 	 */
 	public class DirectLineIterator extends LineIterator
 	{
-
 		/**
 		 * Constructs a new line iterator over this buffer, starting at the
 		 * specified key.

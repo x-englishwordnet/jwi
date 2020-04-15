@@ -63,7 +63,6 @@ public interface IVersion extends Serializable
 	 */
 	IVersion NO_VERSION = new IVersion()
 	{
-
 		/**
 		 * This serial version UID identifies the last version of JWI whose
 		 * serialized instances of the NO_VERSION instance are compatible with this
@@ -124,7 +123,5 @@ public interface IVersion extends Serializable
 		{
 			return IVersion.NO_VERSION;
 		}
-
 	};
-
 }

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile ADJ_ALL" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile ADJ_PERT" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile ADJ_PPL" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile ADV_ALL" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer ALSO_SEE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer ANTONYM" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer ATTRIBUTE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer CAUSE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer DERIVATIONALLY_RELATED" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer DOMAIN" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer ENTAILMENT" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer HOLONYM_MEMBER" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer HOLONYM_PART" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer HOLONYM_SUBSTANCE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer HYPERNYM" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer HYPERNYM_INSTANCE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer HYPONYM" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer HYPONYM_INSTANCE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer IS_CAUSED" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer IS_ENTAILED" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer MEMBER" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer MERONYM_MEMBER" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer MERONYM_PART" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer MERONYM_SUBSTANCE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.IVersion NO_VERSION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_ACT" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_ANIMAL" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_ARTIFACT" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_ATTRIBUTE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_BODY" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_COGNITION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_COMMUNICATION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_EVENT" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_FEELING" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_FOOD" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_GROUP" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_LOCATION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_MOTIVE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_OBJECT" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_PERSON" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_PHENOMENON" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_PLANT" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_POSSESSION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_PROCESS" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_QUANTITY" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_RELATION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_SHAPE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_STATE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_SUBSTANCE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_TIME" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile NOUN_TOPS" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_01" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_02" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_03" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_04" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_05" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_06" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_07" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_08" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_09" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_10" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_11" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_12" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_13" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_14" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_15" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_16" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_17" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_18" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_19" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_20" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_21" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_22" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_23" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_24" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_25" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_26" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_27" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_28" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_29" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_30" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_31" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_32" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_33" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_34" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame NUM_35" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS NUM_ADJECTIVE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS NUM_ADJECTIVE_SATELLITE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS NUM_ADVERB" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS NUM_NOUN" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS NUM_VERB" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer PARTICIPLE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer PERTAINYM" />
+      <entry_point TYPE="method" FQNAME="edu.mit.jwi.item.IVersion$1 java.lang.Object readResolve()" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer REGION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer REGION_MEMBER" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.data.ContentType SENSE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.ExceptionEntry serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.ExceptionEntryID serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.ExceptionEntryProxy serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.data.IHasLifecycle.ObjectClosedException serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.data.IHasLifecycle.ObjectOpenException serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.data.parse.ILineParser.MisformattedLineException serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.IndexWord serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.IndexWordID serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.IVersion$1 serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.RAMDictionary.DictionaryData serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.SenseEntry serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.SenseKey serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Synset serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.SynsetID serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.UnknownLexFile serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.VerbFrame serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Word serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.WordID serialVersionUID" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS TAG_ADJECTIVE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS TAG_ADJECTIVE_SATELLITE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS TAG_ADVERB" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS TAG_NOUN" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.POS TAG_VERB" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer TOPIC" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer TOPIC_MEMBER" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer USAGE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer USAGE_MEMBER" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver16" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver17" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver171" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver20" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver21" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver21swn_10k" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver21swn_20k" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver21swn_30k" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver21swn_400k_cropped" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver21swn_400k_full" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver21swn_40k" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver30" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Version ver31" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_BODY" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_CHANGE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_COGNITION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_COMMUNICATION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_COMPETITION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_CONSUMPTION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_CONTACT" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_CREATION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_EMOTION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.Pointer VERB_GROUP" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_MOTION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_PERCEPTION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_POSSESSION" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_SOCIAL" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_STATIVE" />
+      <entry_point TYPE="field" FQNAME="edu.mit.jwi.item.LexFile VERB_WEATHER" />
+    </entry_points>
+    <pattern value="edu.mit.jwi.RAMDictionary.DictionaryData.WordBuilder" method="addRelatedWord" />
+    <pattern value="edu.mit.jwi.RAMDictionary.DictionaryData.WordBuilder" method="addVerbFrame" />
+    <pattern value="edu.mit.jwi.item.AdjMarker" />
+    <pattern value="edu.mit.jwi.morph.IStemmingRule" method="apply" />
+    <pattern value="edu.mit.jwi.CachingDictionary" />
+    <pattern value="edu.mit.jwi.ICachingDictionary.IItemCache" method="clear" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="close" />
+    <pattern value="edu.mit.jwi.RAMDictionary.DictionaryData" method="compact" />
+    <pattern value="edu.mit.jwi.data.ContentType" />
+    <pattern value="edu.mit.jwi.DataSourceDictionary" />
+    <pattern value="edu.mit.jwi.data.DataType" />
+    <pattern value="edu.mit.jwi.Dictionary" />
+    <pattern value="edu.mit.jwi.Dictionary" method="Dictionary" />
+    <pattern value="edu.mit.jwi.RAMDictionary.DictionaryData" />
+    <pattern value="edu.mit.jwi.RAMDictionary.DictionaryData" method="DictionaryData" />
+    <pattern value="edu.mit.jwi.test.JWITest" method="doneTest" />
+    <pattern value="edu.mit.jwi.item.ExceptionEntry" />
+    <pattern value="edu.mit.jwi.item.ExceptionEntry" method="ExceptionEntry" />
+    <pattern value="edu.mit.jwi.item.ExceptionEntryID" />
+    <pattern value="edu.mit.jwi.item.ExceptionEntryProxy" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="export" />
+    <pattern value="edu.mit.jwi.IRAMDictionary.FileInputStreamFactory" />
+    <pattern value="edu.mit.jwi.IRAMDictionary.FileInputStreamFactory" method="FileInputStreamFactory" />
+    <pattern value="edu.mit.jwi.DataSourceDictionary.FileIterator" />
+    <pattern value="edu.mit.jwi.data.FileProvider" />
+    <pattern value="edu.mit.jwi.data.FileProvider" method="FileProvider" />
+    <pattern value="edu.mit.jwi.morph.IStemmer" method="findStems" />
+    <pattern value="edu.mit.jwi.CachingDictionary" method="getBackingDictionary" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getBackingDictionary" />
+    <pattern value="edu.mit.jwi.item.IVersion" method="getBugfixVersion" />
+    <pattern value="edu.mit.jwi.ICachingDictionary" method="getCache" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getCharset" />
+    <pattern value="edu.mit.jwi.DataSourceDictionary.FileIterator" method="getCurrentLine" />
+    <pattern value="edu.mit.jwi.data.ContentType" method="getDataContentType" />
+    <pattern value="edu.mit.jwi.IDataSourceDictionary" method="getDataProvider" />
+    <pattern value="edu.mit.jwi.item.AdjMarker" method="getDescription" />
+    <pattern value="edu.mit.jwi.morph.WordnetStemmer" method="getDictionary" />
+    <pattern value="edu.mit.jwi.morph.IStemmingRule" method="getEnding" />
+    <pattern value="edu.mit.jwi.data.ContentType" method="getExceptionContentType" />
+    <pattern value="edu.mit.jwi.data.WordnetFile" method="getFile" />
+    <pattern value="edu.mit.jwi.item.ExceptionEntry" method="getID" />
+    <pattern value="edu.mit.jwi.data.ContentType" method="getIndexContentType" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getIndexWord" />
+    <pattern value="edu.mit.jwi.CachingDictionary.ItemCache" method="getInitialCapacity" />
+    <pattern value="edu.mit.jwi.item.IIndexWord" method="getLemma" />
+    <pattern value="edu.mit.jwi.item.Word" method="getLexicalIDForDataFile" />
+    <pattern value="edu.mit.jwi.data.ILoadPolicy" method="getLoadPolicy" />
+    <pattern value="edu.mit.jwi.ICachingDictionary.IItemCache" method="getMaximumCapacity" />
+    <pattern value="edu.mit.jwi.data.IDataSource" method="getName" />
+    <pattern value="edu.mit.jwi.data.WordnetFile.LineIterator" method="getNextLine" />
+    <pattern value="edu.mit.jwi.item.IVerbFrame" method="getNumber" />
+    <pattern value="edu.mit.jwi.item.ExceptionEntry" method="getPOS" />
+    <pattern value="edu.mit.jwi.item.ExceptionEntryID" method="getPOS" />
+    <pattern value="edu.mit.jwi.morph.StemmingRule" method="getPOS" />
+    <pattern value="edu.mit.jwi.item.IVersion" method="getQualifier" />
+    <pattern value="edu.mit.jwi.item.ISynset" method="getRelatedSynsets" />
+    <pattern value="edu.mit.jwi.item.IWord" method="getRelatedWords" />
+    <pattern value="edu.mit.jwi.IDictionary" method="getSenseEntry" />
+    <pattern value="edu.mit.jwi.data.IDataProvider" method="getSource" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getStreamFactory" />
+    <pattern value="edu.mit.jwi.morph.IStemmingRule" method="getSuffix" />
+    <pattern value="edu.mit.jwi.morph.IStemmingRule" method="getSuffixIgnoreSet" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getSynset" />
+    <pattern value="edu.mit.jwi.item.IVerbFrame" method="getTemplate" />
+    <pattern value="edu.mit.jwi.item.ISynset" method="getType" />
+    <pattern value="edu.mit.jwi.data.IDataProvider" method="getTypes" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getVersion" />
+    <pattern value="edu.mit.jwi.IDictionary" method="getWord" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getWord" />
+    <pattern value="edu.mit.jwi.RAMDictionary.HotSwappableIterator" />
+    <pattern value="edu.mit.jwi.RAMDictionary.HotSwappableIterator" method="HotSwappableIterator" />
+    <pattern value="edu.mit.jwi.RAMDictionary.HotSwappableSenseEntryIterator" />
+    <pattern value="edu.mit.jwi.RAMDictionary.HotSwappableSenseEntryIterator" method="HotSwappableSenseEntryIterator" />
+    <pattern value="edu.mit.jwi.ICachingDictionary" />
+    <pattern value="edu.mit.jwi.data.IDataProvider" />
+    <pattern value="edu.mit.jwi.data.IDataSource" />
+    <pattern value="edu.mit.jwi.IDataSourceDictionary" />
+    <pattern value="edu.mit.jwi.IDictionary" />
+    <pattern value="edu.mit.jwi.data.IHasLifecycle" />
+    <pattern value="edu.mit.jwi.item.IIndexWord" />
+    <pattern value="edu.mit.jwi.ICachingDictionary.IItemCache" />
+    <pattern value="edu.mit.jwi.data.parse.ILineParser" />
+    <pattern value="edu.mit.jwi.data.ILoadable" />
+    <pattern value="edu.mit.jwi.data.ILoadPolicy" />
+    <pattern value="edu.mit.jwi.RAMDictionary.JWIBackgroundDataLoader" />
+    <pattern value="edu.mit.jwi.test.JWITest" />
+    <pattern value="edu.mit.jwi.morph.SimpleStemmer" />
+    <pattern value="edu.mit.jwi.item.IndexWord" />
+    <pattern value="edu.mit.jwi.item.IndexWord" method="IndexWord" />
+    <pattern value="edu.mit.jwi.item.IndexWordID" />
+    <pattern value="edu.mit.jwi.item.IVerbFrame" method="instantiateTemplate" />
+    <pattern value="edu.mit.jwi.IRAMDictionary" />
+    <pattern value="edu.mit.jwi.item.POS" method="isAdjectiveSatellite" />
+    <pattern value="edu.mit.jwi.ICachingDictionary.IItemCache" method="isEnabled" />
+    <pattern value="edu.mit.jwi.item.Version" method="isIllegalVersion" />
+    <pattern value="edu.mit.jwi.morph.IStemmer" />
+    <pattern value="edu.mit.jwi.morph.IStemmingRule" />
+    <pattern value="edu.mit.jwi.item.ISynset" />
+    <pattern value="edu.mit.jwi.CachingDictionary.ItemCache" />
+    <pattern value="edu.mit.jwi.item.IVerbFrame" />
+    <pattern value="edu.mit.jwi.item.IVersion" />
+    <pattern value="edu.mit.jwi.item.IWord" />
+    <pattern value="edu.mit.jwi.test.JWI" />
+    <pattern value="edu.mit.jwi.item.LexFile" />
+    <pattern value="edu.mit.jwi.data.WordnetFile.LineIterator" />
+    <pattern value="edu.mit.jwi.data.ILoadable" method="load" />
+    <pattern value="edu.mit.jwi.test.JWI" method="main" />
+    <pattern value="edu.mit.jwi.test.JWITest" method="mainTest30" />
+    <pattern value="edu.mit.jwi.test.JWITest" method="mainTest31" />
+    <pattern value="edu.mit.jwi.test.JWITest" method="mainTestXX" />
+    <pattern value="edu.mit.jwi.RAMDictionary.DictionaryData" method="makeWord" />
+    <pattern value="edu.mit.jwi.data.parse.ILineParser.MisformattedLineException" />
+    <pattern value="edu.mit.jwi.data.parse.ILineParser.MisformattedLineException" method="MisformattedLineException" />
+    <pattern value="edu.mit.jwi.data.IHasLifecycle.ObjectClosedException" />
+    <pattern value="edu.mit.jwi.data.IHasLifecycle.ObjectClosedException" method="ObjectClosedException" />
+    <pattern value="edu.mit.jwi.data.IHasLifecycle.ObjectOpenException" />
+    <pattern value="edu.mit.jwi.data.IHasLifecycle.ObjectOpenException" method="ObjectOpenException" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="open" />
+    <pattern value="edu.mit.jwi.item.ExceptionEntryID" method="parseExceptionEntryID" />
+    <pattern value="edu.mit.jwi.item.IndexWordID" method="parseIndexWordID" />
+    <pattern value="edu.mit.jwi.item.SynsetID" method="parseSynsetID" />
+    <pattern value="edu.mit.jwi.item.Version" method="parseVersion" />
+    <pattern value="edu.mit.jwi.item.WordID" method="parseWordID" />
+    <pattern value="edu.mit.jwi.item.Pointer" />
+    <pattern value="edu.mit.jwi.item.POS" />
+    <pattern value="edu.mit.jwi.RAMDictionary" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="RAMDictionary" />
+    <pattern value="edu.mit.jwi.item.LexFile" method="readResolve" />
+    <pattern value="edu.mit.jwi.item.Pointer" method="readResolve" />
+    <pattern value="edu.mit.jwi.item.VerbFrame" method="readResolve" />
+    <pattern value="edu.mit.jwi.item.Version" method="readResolve" />
+    <pattern value="edu.mit.jwi.item.SenseEntry" />
+    <pattern value="edu.mit.jwi.item.SenseKey" />
+    <pattern value="edu.mit.jwi.item.SenseKey" method="SenseKey" />
+    <pattern value="edu.mit.jwi.IDictionary" method="setCharset" />
+    <pattern value="edu.mit.jwi.ICachingDictionary.IItemCache" method="setEnabled" />
+    <pattern value="edu.mit.jwi.data.ILoadPolicy" method="setLoadPolicy" />
+    <pattern value="edu.mit.jwi.ICachingDictionary.IItemCache" method="setMaximumCapacity" />
+    <pattern value="edu.mit.jwi.data.IDataProvider" method="setSource" />
+    <pattern value="edu.mit.jwi.ICachingDictionary.IItemCache" method="size" />
+    <pattern value="edu.mit.jwi.morph.StemmingRule" />
+    <pattern value="edu.mit.jwi.item.Synset" />
+    <pattern value="edu.mit.jwi.item.SynsetID" />
+    <pattern value="edu.mit.jwi.RAMDictionary.DictionaryData.WordBuilder" method="toWord" />
+    <pattern value="edu.mit.jwi.item.UnknownLexFile" />
+    <pattern value="edu.mit.jwi.IRAMDictionary.URLInputStreamFactory" />
+    <pattern value="edu.mit.jwi.IRAMDictionary.URLInputStreamFactory" method="URLInputStreamFactory" />
+    <pattern value="edu.mit.jwi.data.DataType" method="values" />
+    <pattern value="edu.mit.jwi.item.LexFile" method="values" />
+    <pattern value="edu.mit.jwi.item.Pointer" method="values" />
+    <pattern value="edu.mit.jwi.item.VerbFrame" method="values" />
+    <pattern value="edu.mit.jwi.item.Version" method="values" />
+    <pattern value="edu.mit.jwi.item.VerbFrame" />
+    <pattern value="edu.mit.jwi.item.Version" />
+    <pattern value="edu.mit.jwi.item.Word" />
+    <pattern value="edu.mit.jwi.RAMDictionary.DictionaryData.WordBuilder" />
+    <pattern value="edu.mit.jwi.item.WordID" />
+    <pattern value="edu.mit.jwi.item.WordID" method="WordID" />
+    <pattern value="edu.mit.jwi.data.WordnetFile" />
+    <pattern value="edu.mit.jwi.morph.WordnetStemmer" />
+    <pattern value="edu.mit.jwi.morph.WordnetStemmer" method="WordnetStemmer" />
+    <pattern value="edu.mit.jwi.item.IVersion$1" />
+    <pattern value="edu.mit.jwi.CachingDictionary.ItemCache" method="clear" />
+    <pattern value="edu.mit.jwi.item.IVersion$1" method="getBugfixVersion" />
+    <pattern value="edu.mit.jwi.item.Version" method="getBugfixVersion" />
+    <pattern value="edu.mit.jwi.DataSourceDictionary" method="getDataProvider" />
+    <pattern value="edu.mit.jwi.item.IndexWord" method="getLemma" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getLoadPolicy" />
+    <pattern value="edu.mit.jwi.CachingDictionary.ItemCache" method="getMaximumCapacity" />
+    <pattern value="edu.mit.jwi.data.WordnetFile" method="getName" />
+    <pattern value="edu.mit.jwi.item.IVersion$1" method="getQualifier" />
+    <pattern value="edu.mit.jwi.item.Version" method="getQualifier" />
+    <pattern value="edu.mit.jwi.item.Synset" method="getRelatedSynsets" />
+    <pattern value="edu.mit.jwi.item.Word" method="getRelatedWords" />
+    <pattern value="edu.mit.jwi.CachingDictionary" method="getSenseEntry" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="getSenseEntry" />
+    <pattern value="edu.mit.jwi.data.FileProvider" method="getSource" />
+    <pattern value="edu.mit.jwi.item.VerbFrame" method="getTemplate" />
+    <pattern value="edu.mit.jwi.item.Synset" method="getType" />
+    <pattern value="edu.mit.jwi.data.FileProvider" method="getTypes" />
+    <pattern value="edu.mit.jwi.CachingDictionary" method="getWord" />
+    <pattern value="edu.mit.jwi.DataSourceDictionary" method="getWord" />
+    <pattern value="edu.mit.jwi.item.VerbFrame" method="instantiateTemplate" />
+    <pattern value="edu.mit.jwi.data.FileProvider" method="load" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="load" />
+    <pattern value="edu.mit.jwi.data.WordnetFile" method="load" />
+    <pattern value="edu.mit.jwi.item.IVersion$1" method="readResolve" />
+    <pattern value="edu.mit.jwi.CachingDictionary" method="setCharset" />
+    <pattern value="edu.mit.jwi.DataSourceDictionary" method="setCharset" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="setCharset" />
+    <pattern value="edu.mit.jwi.data.FileProvider" method="setLoadPolicy" />
+    <pattern value="edu.mit.jwi.RAMDictionary" method="setLoadPolicy" />
+    <pattern value="edu.mit.jwi.data.FileProvider" method="setSource" />
+    <pattern value="edu.mit.jwi.CachingDictionary.ItemCache" method="size" />
+    <pattern value="edu.mit.jwi.item.Version" method="Version" />
+    <pattern value="edu.mit.jwi.item.IPointer" method="getName" />
+    <pattern value="edu.mit.jwi.item.IPointer" method="getSymbol" />
+    <pattern value="edu.mit.jwi.item.IPointer" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/jwi-use/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

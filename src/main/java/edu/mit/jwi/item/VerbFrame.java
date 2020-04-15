@@ -150,7 +150,6 @@ public class VerbFrame implements IVerbFrame
 
 	static
 	{
-
 		// get the instance fields
 		Field[] fields = VerbFrame.class.getFields();
 		List<Field> instanceFields = new ArrayList<>();
@@ -207,5 +206,4 @@ public class VerbFrame implements IVerbFrame
 	{
 		return verbFrameMap.get(number);
 	}
-
 }

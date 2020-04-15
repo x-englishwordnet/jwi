@@ -88,7 +88,6 @@ public class ExceptionLineParser implements ILineParser<IExceptionEntryProxy>
 		String[] trimmed = new String[forms.length - 1];
 		for (int i = 1; i < forms.length; i++)
 			trimmed[i - 1] = forms[i].trim();
-
 		return new ExceptionEntryProxy(surface, trimmed);
 	}
 }

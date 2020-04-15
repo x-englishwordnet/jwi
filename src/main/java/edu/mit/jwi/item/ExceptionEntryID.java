@@ -141,8 +141,6 @@ public class ExceptionEntryID implements IExceptionEntryID
 			throw new IllegalArgumentException();
 
 		POS pos = POS.getPartOfSpeech(value.charAt(value.length() - 1));
-
 		return new ExceptionEntryID(value.substring(4, value.length() - 2), pos);
 	}
-
 }

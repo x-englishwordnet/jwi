@@ -286,8 +286,6 @@ public class WordID implements IWordID
 		String lemma = value.substring(18);
 		if (lemma.equals(unknownLemma))
 			throw new IllegalArgumentException();
-
 		return new WordID(id, lemma);
 	}
-
 }

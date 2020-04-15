@@ -76,5 +76,4 @@ public enum AdjMarker
 	{
 		return description;
 	}
-
 }

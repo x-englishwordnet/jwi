@@ -67,7 +67,6 @@ public class Synset implements ISynset
 	public Synset(ISynsetID id, ILexFile lexFile, boolean isAdjSat, boolean isAdjHead, String gloss, List<IWordBuilder> wordBuilders,
 			Map<IPointer, ? extends List<ISynsetID>> ids)
 	{
-
 		if (id == null)
 			throw new NullPointerException();
 		if (lexFile == null)
@@ -374,7 +373,6 @@ public class Synset implements ISynset
 	 */
 	public interface IWordBuilder
 	{
-
 		/**
 		 * Creates the word represented by this builder. If the builder
 		 * represents invalid values for a word, this method may throw an
@@ -404,7 +402,6 @@ public class Synset implements ISynset
 		 * @since JWI 2.2.0
 		 */
 		void addRelatedWord(IPointer type, IWordID id);
-
 	}
 
 	/**
@@ -416,7 +413,6 @@ public class Synset implements ISynset
 	 */
 	public static class WordBuilder implements IWordBuilder
 	{
-
 		// instance fields
 		private final int num;
 		protected final int lexID;
@@ -479,7 +475,5 @@ public class Synset implements ISynset
 		{
 			return new Word(synset, num, lemma, lexID, marker, verbFrames, relatedWords);
 		}
-
 	}
-
 }

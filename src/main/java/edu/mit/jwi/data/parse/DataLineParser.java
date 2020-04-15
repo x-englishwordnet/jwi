@@ -221,7 +221,6 @@ public class DataLineParser implements ILineParser<ISynset>
 			// create synset and words
 			List<IWordBuilder> words = Arrays.asList(wordProxies);
 			return new Synset(synsetID, lexFile, isAdjSat, isAdjHead, gloss, words, synsetPointerMap);
-
 		}
 		catch (NumberFormatException | NoSuchElementException e)
 		{
@@ -292,5 +291,4 @@ public class DataLineParser implements ILineParser<ISynset>
 	{
 		return Pointer.getPointerType(symbol, pos);
 	}
-
 }

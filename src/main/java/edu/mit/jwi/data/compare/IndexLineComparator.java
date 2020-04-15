@@ -104,7 +104,6 @@ public class IndexLineComparator implements ILineComparator
 
 		String sub1 = s1.substring(0, i1).toLowerCase();
 		String sub2 = s2.substring(0, i2).toLowerCase();
-
 		return sub1.compareTo(sub2);
 	}
 

@@ -72,7 +72,6 @@ public interface IHasLifecycle extends IClosable
 	 */
 	class ObjectClosedException extends RuntimeException
 	{
-
 		// serial version id
 		private static final long serialVersionUID = -4703264035869277920L;
 
@@ -151,7 +150,6 @@ public interface IHasLifecycle extends IClosable
 	 */
 	class ObjectOpenException extends RuntimeException
 	{
-
 		// serial version id
 		private static final long serialVersionUID = -4703264035869277920L;
 
@@ -219,5 +217,4 @@ public interface IHasLifecycle extends IClosable
 			super(cause);
 		}
 	}
-
 }

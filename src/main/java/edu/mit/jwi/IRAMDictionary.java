@@ -55,7 +55,6 @@ public interface IRAMDictionary extends IDictionary, ILoadPolicy, ILoadable
 	 */
 	interface IInputStreamFactory
 	{
-
 		/**
 		 * Returns a new input stream from this factory.
 		 *
@@ -64,7 +63,6 @@ public interface IRAMDictionary extends IDictionary, ILoadPolicy, ILoadable
 		 * @since JWI 2.4.0
 		 */
 		InputStream makeInputStream() throws IOException;
-
 	}
 
 	/**
@@ -77,7 +75,6 @@ public interface IRAMDictionary extends IDictionary, ILoadPolicy, ILoadable
 	 */
 	class FileInputStreamFactory implements IInputStreamFactory
 	{
-
 		// instance fields
 		protected final File file;
 
@@ -105,7 +102,6 @@ public interface IRAMDictionary extends IDictionary, ILoadPolicy, ILoadable
 		{
 			return new FileInputStream(file);
 		}
-
 	}
 
 	/**
@@ -118,7 +114,6 @@ public interface IRAMDictionary extends IDictionary, ILoadPolicy, ILoadable
 	 */
 	class URLInputStreamFactory implements IInputStreamFactory
 	{
-
 		// instance fields
 		protected final URL url;
 
@@ -146,7 +141,5 @@ public interface IRAMDictionary extends IDictionary, ILoadPolicy, ILoadable
 		{
 			return url.openStream();
 		}
-
 	}
-
 }

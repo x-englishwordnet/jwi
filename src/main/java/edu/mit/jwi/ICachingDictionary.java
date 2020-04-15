@@ -41,7 +41,6 @@ public interface ICachingDictionary extends IDictionary
 	 */
 	interface IItemCache extends IHasLifecycle
 	{
-
 		/**
 		 * Returns <code>true</code> if this cache is enabled;
 		 * <code>false</code> otherwise. If a cache is enabled, it will cache an
@@ -155,7 +154,5 @@ public interface ICachingDictionary extends IDictionary
 		 * @since JWI 2.2.0
 		 */
 		void clear();
-
 	}
-
 }

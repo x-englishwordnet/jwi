@@ -396,7 +396,6 @@ public class CachingDictionary implements ICachingDictionary
 	 */
 	public static class ItemCache implements IItemCache
 	{
-
 		// default configuration
 		public static final int DEFAULT_INITIAL_CAPACITY = 16;
 		public static final int DEFAULT_MAXIMUM_CAPACITY = 512;
@@ -705,9 +704,10 @@ public class CachingDictionary implements ICachingDictionary
 		 *
 		 * @see edu.mit.jwi.ICachingDictionary.IItemCache#retrieveItem(edu.mit.jwi.item.IItemID)
 		 */
-		@SuppressWarnings("unchecked") public <T extends IItem<D>, D extends IItemID<T>> T retrieveItem(D id)
+		public <T extends IItem<D>, D extends IItemID<T>> T retrieveItem(D id)
 		{
 			checkOpen();
+			//noinspection unchecked
 			return (T) itemCache.get(id);
 		}
 
@@ -733,5 +733,4 @@ public class CachingDictionary implements ICachingDictionary
 			return senseCache.get(key);
 		}
 	}
-
 }

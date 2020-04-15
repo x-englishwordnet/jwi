@@ -155,7 +155,6 @@ public class SynsetID implements ISynsetID
 		POS pos = POS.getPartOfSpeech(tag);
 		if (pos == null)
 			throw new IllegalArgumentException("unknown part of speech tag: " + tag);
-
 		return new SynsetID(offset, pos);
 	}
 }

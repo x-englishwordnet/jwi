@@ -53,5 +53,4 @@ public class Dictionary extends CachingDictionary
 	{
 		super(new DataSourceDictionary(new FileProvider(wordnetDir)));
 	}
-
 }

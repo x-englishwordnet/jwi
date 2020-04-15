@@ -546,7 +546,6 @@ public class Version implements IVersion
 			if (isIllegalQualifier(qualifier))
 				return null;
 		}
-
 		return getVersion(major, minor, bugfix, qualifier);
 	}
 
@@ -575,7 +574,6 @@ public class Version implements IVersion
 		int minor = Integer.parseInt(parts[1].trim());
 		int bugfix = (parts.length < 3) ? 0 : Integer.parseInt(parts[2].trim());
 		String qualifier = (parts.length < 4) ? null : parts[3].trim();
-
 		return getVersion(major, minor, bugfix, qualifier);
 	}
 
@@ -593,7 +591,6 @@ public class Version implements IVersion
 	{
 		if (versions == null)
 		{
-
 			// get all the fields containing ContentType
 			Field[] fields = Version.class.getFields();
 			List<Field> instanceFields = new ArrayList<>();
@@ -623,7 +620,6 @@ public class Version implements IVersion
 			// make the value set unmodifiable
 			versions = Collections.unmodifiableList(hidden);
 		}
-
 		return versions;
 	}
 }

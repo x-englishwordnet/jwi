@@ -110,7 +110,6 @@ public class SenseLineParser implements ILineParser<ISenseEntry>
 			// get tag cnt
 			begin = end + 1;
 			int tag_cnt = Integer.parseInt(line.substring(begin));
-
 			return new SenseEntry(sense_key, synset_offset, sense_number, tag_cnt);
 		}
 		catch (Exception e)
@@ -118,5 +117,4 @@ public class SenseLineParser implements ILineParser<ISenseEntry>
 			throw new MisformattedLineException(line, e);
 		}
 	}
-
 }

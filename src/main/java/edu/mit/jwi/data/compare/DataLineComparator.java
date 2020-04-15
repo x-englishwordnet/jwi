@@ -75,7 +75,6 @@ public class DataLineComparator implements ILineComparator
 	 */
 	public int compare(String s1, String s2)
 	{
-
 		boolean c1 = detector.isCommentLine(s1);
 		boolean c2 = detector.isCommentLine(s2);
 

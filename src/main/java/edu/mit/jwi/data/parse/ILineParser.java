@@ -43,7 +43,6 @@ public interface ILineParser<T>
 	 */
 	class MisformattedLineException extends RuntimeException
 	{
-
 		// serial version id
 		private static final long serialVersionUID = -4402988991209648616L;
 
@@ -114,5 +113,4 @@ public interface ILineParser<T>
 			super(cause);
 		}
 	}
-
 }

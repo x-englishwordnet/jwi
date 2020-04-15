@@ -162,7 +162,6 @@ public class SimpleStemmer implements IStemmer
 	 */
 	public List<String> findStems(String word, POS pos)
 	{
-
 		word = normalize(word);
 
 		// if pos is null, do all
@@ -207,7 +206,6 @@ public class SimpleStemmer implements IStemmer
 	 */
 	protected String normalize(String word)
 	{
-
 		// make lowercase
 		word = word.toLowerCase();
 
@@ -237,7 +235,6 @@ public class SimpleStemmer implements IStemmer
 	 */
 	protected List<String> stripNounSuffix(final String noun)
 	{
-
 		if (noun.length() <= 2)
 			return Collections.emptyList();
 
@@ -261,9 +258,7 @@ public class SimpleStemmer implements IStemmer
 			if (root != null && root.length() > 0)
 				result.add(root);
 		}
-
 		return result.isEmpty() ? Collections.emptyList() : new ArrayList<>(result);
-
 	}
 
 	/**
@@ -277,7 +272,6 @@ public class SimpleStemmer implements IStemmer
 	 */
 	protected List<String> getNounCollocationRoots(String composite)
 	{
-
 		// split into parts
 		String[] parts = composite.split(underscore);
 		if (parts.length < 2)
@@ -334,7 +328,6 @@ public class SimpleStemmer implements IStemmer
 				poss.clear();
 				poss.addAll(replace);
 			}
-
 		}
 
 		if (poss.isEmpty())
@@ -349,7 +342,6 @@ public class SimpleStemmer implements IStemmer
 			if (root.length() != 0)
 				result.add(root);
 		}
-
 		return new ArrayList<>(result);
 	}
 
@@ -364,7 +356,6 @@ public class SimpleStemmer implements IStemmer
 	 */
 	protected List<String> stripVerbSuffix(final String verb)
 	{
-
 		if (verb.length() <= 2)
 			return Collections.emptyList();
 
@@ -379,7 +370,6 @@ public class SimpleStemmer implements IStemmer
 			if (root != null && root.length() > 0)
 				result.add(root);
 		}
-
 		return result.isEmpty() ? Collections.emptyList() : new ArrayList<>(result);
 	}
 
@@ -394,7 +384,6 @@ public class SimpleStemmer implements IStemmer
 	 */
 	protected List<String> getVerbCollocationRoots(String composite)
 	{
-
 		// split into parts
 		String[] parts = composite.split(underscore);
 		if (parts.length < 2)
@@ -436,7 +425,6 @@ public class SimpleStemmer implements IStemmer
 
 		// remove any empties
 		result.removeIf(s -> s.length() == 0);
-
 		return result.isEmpty() ? Collections.emptyList() : new ArrayList<>(result);
 	}
 
@@ -451,7 +439,6 @@ public class SimpleStemmer implements IStemmer
 	 */
 	protected List<String> stripAdjectiveSuffix(final String adj)
 	{
-
 		// we will return this to the caller
 		Set<String> result = new LinkedHashSet<>();
 
@@ -463,7 +450,6 @@ public class SimpleStemmer implements IStemmer
 			if (root != null && root.length() > 0)
 				result.add(root);
 		}
-
 		return result.isEmpty() ? Collections.emptyList() : new ArrayList<>(result);
 	}
 }

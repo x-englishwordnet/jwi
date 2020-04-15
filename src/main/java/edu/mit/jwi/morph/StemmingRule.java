@@ -92,7 +92,6 @@ public class StemmingRule implements IStemmingRule
 		this.suffix = suffix;
 		this.ending = ending;
 		this.ignoreSet = ignoreSet;
-
 	}
 
 	/*
@@ -152,7 +151,6 @@ public class StemmingRule implements IStemmingRule
 	 */
 	public String apply(String word, String suffix)
 	{
-
 		// see if the suffix is present
 		if (!word.endsWith(getSuffix()))
 			return null;
@@ -173,8 +171,6 @@ public class StemmingRule implements IStemmingRule
 		// append optional suffix
 		if (suffix != null)
 			sb.append(suffix.trim());
-
 		return sb.toString();
 	}
-
 }

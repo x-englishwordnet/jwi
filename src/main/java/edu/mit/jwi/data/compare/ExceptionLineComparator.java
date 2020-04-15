@@ -72,7 +72,6 @@ public class ExceptionLineComparator implements ILineComparator
 	 */
 	public int compare(String line1, String line2)
 	{
-
 		String[] words1 = spacePattern.split(line1);
 		String[] words2 = spacePattern.split(line2);
 
@@ -80,7 +79,6 @@ public class ExceptionLineComparator implements ILineComparator
 			throw new MisformattedLineException(line1);
 		if (words2.length < 1)
 			throw new MisformattedLineException(line2);
-
 		return words1[0].compareTo(words2[0]);
 	}
 

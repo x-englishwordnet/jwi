@@ -299,7 +299,6 @@ public class LexFile implements ILexFile
 
 	static
 	{
-
 		// get instance fields
 		Field[] fields = LexFile.class.getFields();
 		List<Field> instanceFields = new ArrayList<>();
@@ -358,5 +357,4 @@ public class LexFile implements ILexFile
 	{
 		return lexFileMap.get(num);
 	}
-
 }

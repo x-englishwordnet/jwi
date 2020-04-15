@@ -57,7 +57,6 @@ public class BinarySearchWordnetFile<T> extends WordnetFile<T>
 	 */
 	public String getLine(String key)
 	{
-
 		ByteBuffer buffer = getBuffer();
 
 		synchronized (bufferLock)
@@ -69,7 +68,6 @@ public class BinarySearchWordnetFile<T> extends WordnetFile<T>
 			String line;
 			while (stop - start > 1)
 			{
-
 				// find the middle of the buffer
 				midpoint = (start + stop) / 2;
 				buffer.position(midpoint);
@@ -121,7 +119,6 @@ public class BinarySearchWordnetFile<T> extends WordnetFile<T>
 	 */
 	public class BinarySearchLineIterator extends LineIterator
 	{
-
 		/**
 		 * Constructs a new line iterator over this buffer, starting at the
 		 * specified key.
@@ -207,6 +204,5 @@ public class BinarySearchWordnetFile<T> extends WordnetFile<T>
 				itrBuffer.position(itrBuffer.limit());
 			}
 		}
-
 	}
 }

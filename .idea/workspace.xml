@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jwix:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="100736e9-06c5-4bf4-b0ac-d48ffbe0807d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZAt7irgsiJsSniFqUiLe57S0NQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.mit.jwi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.mit.jwi.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java/edu/mit/jwi" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.JWITestXX_nonascii">
+    <configuration name="JWITest3031" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.mit.jwi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.mit.jwi.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.mit.jwi.test.JWITest3031" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWITestDummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwi" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jwi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.mit.jwi.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.mit.jwi.test.JWITestDummy" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWITestXX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.mit.jwi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.mit.jwi.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.mit.jwi.test.JWITestXX" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWITestXX_nonascii" type="JUnit" factoryName="JUnit">
+      <module name="jwi" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.mit.jwi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.mit.jwi.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.mit.jwi.test.JWITestXX_nonascii" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jwi [deploy]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="jwi [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JWITestXX_nonascii" />
+      <item itemvalue="JUnit.JWITestDummy" />
+      <item itemvalue="JUnit.JWITest3031" />
+      <item itemvalue="JUnit.JWITestXX" />
+      <item itemvalue="Maven.jwi [install]" />
+      <item itemvalue="Maven.jwi [deploy]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JWITestXX" />
+        <item itemvalue="JUnit.JWITestDummy" />
+        <item itemvalue="JUnit.JWITest3031" />
+        <item itemvalue="Maven.jwi [deploy]" />
+        <item itemvalue="Maven.jwi [install]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="100736e9-06c5-4bf4-b0ac-d48ffbe0807d" name="Default Changelist" comment="" />
+      <created>1584293560074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584293560074</updated>
+    </task>
+    <task id="LOCAL-00001" summary="lint">
+      <created>1584347233108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584347233108</updated>
+    </task>
+    <task id="LOCAL-00002" summary="quirk">
+      <created>1584348213348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584348213348</updated>
+    </task>
+    <task id="LOCAL-00003" summary="reorganize tests">
+      <created>1584351326255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584351326255</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sources and javadoc plugins">
+      <created>1584526948324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584526948324</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add non-ASCII tests">
+      <created>1585235351371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585235351371</updated>
+    </task>
+    <task id="LOCAL-00006" summary="extended tests to check sensekey">
+      <created>1586414028274</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586414028274</updated>
+    </task>
+    <task id="LOCAL-00007" summary="available list of files is sorted so that choice per hints is not random (first available)">
+      <created>1586419923414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586419923414</updated>
+    </task>
+    <task id="LOCAL-00008" summary="more extensive tests to involve tricky cases">
+      <created>1586422471538</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586422471538</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new pom">
+      <created>1586755506213</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586755506213</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new pom">
+      <created>1586764069264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586764069264</updated>
+    </task>
+    <task id="LOCAL-00011" summary="reformat code">
+      <created>1586838255098</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586838255098</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="lint" />
+    <MESSAGE value="quirk" />
+    <MESSAGE value="reorganize tests" />
+    <MESSAGE value="sources and javadoc plugins" />
+    <MESSAGE value="add non-ASCII tests" />
+    <MESSAGE value="extended tests to check sensekey" />
+    <MESSAGE value="available list of files is sorted so that choice per hints is not random (first available)" />
+    <MESSAGE value="more extensive tests to involve tricky cases" />
+    <MESSAGE value="new pom" />
+    <MESSAGE value="reformat code" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformat code" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="577" y="271" width="806" height="691" key="#ExampleUnitTest" timestamp="1584340173727">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="577" y="271" width="806" height="691" key="#ExampleUnitTest/51.27.1869.1173@51.27.1869.1173" timestamp="1584340173727" />
+    <state x="580" y="275" width="800" height="684" key="#Project_Structure" timestamp="1586839092870">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="580" y="275" width="800" height="684" key="#Project_Structure/51.27.1869.1173@51.27.1869.1173" timestamp="1586839092870" />
+    <state x="497" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586839200854">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="497" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1869.1173@51.27.1869.1173" timestamp="1586839200854" />
+    <state x="735" y="420" width="491" height="394" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584297965047">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="735" y="420" width="491" height="394" key="#com.intellij.fileTypes.FileTypeChooser/51.27.1869.1173@51.27.1869.1173" timestamp="1584297965047" />
+    <state x="734" y="454" width="492" height="326" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1584351377250">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="734" y="454" width="492" height="326" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/51.27.1869.1173@51.27.1869.1173" timestamp="1584351377250" />
+    <state x="918" y="646" width="525" height="433" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586408882671">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="918" y="646" width="525" height="433" key="#com.intellij.ide.util.TreeClassChooserDialog/51.27.1869.1173@51.27.1869.1173" timestamp="1586408882671" />
+    <state x="777" y="477" width="417" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584339574195">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="777" y="477" width="417" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/51.27.1869.1173@51.27.1869.1173" timestamp="1584339574195" />
+    <state x="746" y="479" width="468" height="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586836798477">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="746" y="479" width="468" height="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/51.27.1869.1173@51.27.1869.1173" timestamp="1586836798477" />
+    <state x="637" y="212" width="686" height="809" key="CommitChangelistDialog2" timestamp="1586838254813">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="637" y="212" width="686" height="809" key="CommitChangelistDialog2/51.27.1869.1173@51.27.1869.1173" timestamp="1586838254813" />
+    <state width="715" height="465" key="DebuggerActiveHint" timestamp="1586418678915">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="715" height="465" key="DebuggerActiveHint/51.27.1869.1173@51.27.1869.1173" timestamp="1586418678915" />
+    <state x="151" y="127" width="1669" height="973" key="DiffContextDialog" timestamp="1586840210194">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="151" y="127" width="1669" height="973" key="DiffContextDialog/51.27.1869.1173@51.27.1869.1173" timestamp="1586840210194" />
+    <state x="768" y="371" width="424" height="491" key="FileChooserDialogImpl" timestamp="1586836732599">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="768" y="371" width="424" height="491" key="FileChooserDialogImpl/51.27.1869.1173@51.27.1869.1173" timestamp="1586836732599" />
+    <state width="1827" height="316" key="GridCell.Tab.0.bottom" timestamp="1586843959857">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="1827" height="316" key="GridCell.Tab.0.bottom/51.27.1869.1173@51.27.1869.1173" timestamp="1586843959857" />
+    <state width="1827" height="316" key="GridCell.Tab.0.center" timestamp="1586843959857">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="1827" height="316" key="GridCell.Tab.0.center/51.27.1869.1173@51.27.1869.1173" timestamp="1586843959857" />
+    <state width="1827" height="316" key="GridCell.Tab.0.left" timestamp="1586843959856">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="1827" height="316" key="GridCell.Tab.0.left/51.27.1869.1173@51.27.1869.1173" timestamp="1586843959856" />
+    <state width="1827" height="316" key="GridCell.Tab.0.right" timestamp="1586843959857">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="1827" height="316" key="GridCell.Tab.0.right/51.27.1869.1173@51.27.1869.1173" timestamp="1586843959857" />
+    <state width="1827" height="313" key="GridCell.Tab.1.bottom" timestamp="1586761541029">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="1827" height="313" key="GridCell.Tab.1.bottom/51.27.1869.1173@51.27.1869.1173" timestamp="1586761541029" />
+    <state width="1827" height="313" key="GridCell.Tab.1.center" timestamp="1586761541029">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="1827" height="313" key="GridCell.Tab.1.center/51.27.1869.1173@51.27.1869.1173" timestamp="1586761541029" />
+    <state width="1827" height="313" key="GridCell.Tab.1.left" timestamp="1586761541028">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="1827" height="313" key="GridCell.Tab.1.left/51.27.1869.1173@51.27.1869.1173" timestamp="1586761541028" />
+    <state width="1827" height="313" key="GridCell.Tab.1.right" timestamp="1586761541029">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state width="1827" height="313" key="GridCell.Tab.1.right/51.27.1869.1173@51.27.1869.1173" timestamp="1586761541029" />
+    <state x="497" y="248" width="977" height="737" key="SettingsEditor" timestamp="1586836317584">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="497" y="248" width="977" height="737" key="SettingsEditor/51.27.1869.1173@51.27.1869.1173" timestamp="1586836317584" />
+    <state x="580" y="349" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586838257650">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="580" y="349" width="800" height="535" key="Vcs.Push.Dialog.v2/51.27.1869.1173@51.27.1869.1173" timestamp="1586838257650" />
+    <state x="197" y="113" width="1669" height="973" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584347535917">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="197" y="113" width="1669" height="973" key="com.intellij.history.integration.ui.views.FileHistoryDialog/51.27.1869.1173@51.27.1869.1173" timestamp="1584347535917" />
+    <state x="679" y="441" key="com.intellij.ide.util.TipDialog" timestamp="1586838925062">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="679" y="441" key="com.intellij.ide.util.TipDialog/51.27.1869.1173@51.27.1869.1173" timestamp="1586838925062" />
+    <state x="335" y="281" width="752" height="570" key="find.popup" timestamp="1586837971092">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="335" y="281" width="752" height="570" key="find.popup/51.27.1869.1173@51.27.1869.1173" timestamp="1586837971092" />
+    <state x="402" y="312" width="1157" height="610" key="new project wizard" timestamp="1586761403143">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="402" y="312" width="1157" height="610" key="new project wizard/51.27.1869.1173@51.27.1869.1173" timestamp="1586761403143" />
+    <state x="649" y="57" width="672" height="902" key="run.anything.popup" timestamp="1584297803978">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="649" y="57" width="672" height="902" key="run.anything.popup/51.27.1869.1173@51.27.1869.1173" timestamp="1584297803978" />
+    <state x="648" y="289" width="672" height="678" key="search.everywhere.popup" timestamp="1586836669126">
+      <screen x="51" y="27" width="1869" height="1173" />
+    </state>
+    <state x="648" y="289" width="672" height="678" key="search.everywhere.popup/51.27.1869.1173@51.27.1869.1173" timestamp="1586836669126" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/mit/jwi/test/JWI.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/mit/jwi/test/JWI.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/mit/jwi/DataSourceDictionary.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/mit/jwi/data/FileProvider.java</url>
+          <line>367</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/mit/jwi/data/FileProvider.java</url>
+          <line>491</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/mit/jwi/data/FileProvider.java</url>
+          <line>358</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

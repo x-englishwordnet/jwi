@@ -244,7 +244,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 					}
 			}
 		}
-
 		return word;
 	}
 
@@ -294,7 +293,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 	 */
 	protected void setHeadWord(ISynset synset)
 	{
-
 		// head words are only needed for adjective satellites
 		if (!synset.isAdjectiveSatellite())
 			return;
@@ -415,7 +413,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 	 */
 	public abstract class FileIterator<T, N> implements Iterator<N>, IHasPOS
 	{
-
 		protected final IDataSource<T> fFile;
 		protected final Iterator<String> iterator;
 		protected final ILineParser<T> fParser;
@@ -511,7 +508,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 	 */
 	public abstract class FileIterator2<T> extends FileIterator<T, T>
 	{
-
 		/**
 		 * Constructs a new file iterator with the specified content type.
 		 *
@@ -534,7 +530,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 		{
 			super(content, startKey);
 		}
-
 	}
 
 	/**
@@ -542,7 +537,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 	 */
 	public class IndexFileIterator extends FileIterator2<IIndexWord>
 	{
-
 		public IndexFileIterator(POS pos)
 		{
 			this(pos, "");
@@ -562,7 +556,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 		{
 			return fParser.parseLine(line);
 		}
-
 	}
 
 	/**
@@ -570,7 +563,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 	 */
 	public class SenseEntryFileIterator extends FileIterator2<ISenseEntry>
 	{
-
 		public SenseEntryFileIterator()
 		{
 			super(provider.resolveContentType(DataType.SENSE, null));
@@ -585,7 +577,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 		{
 			return fParser.parseLine(line);
 		}
-
 	}
 
 	/**
@@ -593,7 +584,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 	 */
 	public class DataFileIterator extends FileIterator2<ISynset>
 	{
-
 		public DataFileIterator(POS pos)
 		{
 			super(provider.resolveContentType(DataType.DATA, pos));
@@ -617,7 +607,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 				return fParser.parseLine(line);
 			}
 		}
-
 	}
 
 	/**
@@ -625,7 +614,6 @@ public class DataSourceDictionary implements IDataSourceDictionary
 	 */
 	public class ExceptionFileIterator extends FileIterator<IExceptionEntryProxy, IExceptionEntry>
 	{
-
 		public ExceptionFileIterator(POS pos)
 		{
 			super(provider.resolveContentType(DataType.EXCEPTION, pos));

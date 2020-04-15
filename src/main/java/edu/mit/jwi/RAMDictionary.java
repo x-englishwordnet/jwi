@@ -490,7 +490,6 @@ public class RAMDictionary implements IRAMDictionary
 
 			// otherwise we are closed
 			return LifecycleState.CLOSED;
-
 		}
 		finally
 		{
@@ -523,7 +522,6 @@ public class RAMDictionary implements IRAMDictionary
 		{
 			loadLock.unlock();
 		}
-
 	}
 
 	/*
@@ -737,7 +735,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	protected abstract class HotSwappableIterator<E> implements Iterator<E>
 	{
-
 		private Iterator<E> itr;
 		private boolean checkForLoad;
 		private E last = null;
@@ -844,7 +841,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	protected class HotSwappableIndexWordIterator extends HotSwappableIterator<IIndexWord>
 	{
-
 		// the part of speech for this iterator
 		private final POS pos;
 
@@ -869,7 +865,6 @@ public class RAMDictionary implements IRAMDictionary
 		{
 			return data.idxWords.get(pos).values().iterator();
 		}
-
 	}
 
 	/**
@@ -880,7 +875,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	protected class HotSwappableSynsetIterator extends HotSwappableIterator<ISynset>
 	{
-
 		// the part of speech for this iterator
 		private final POS pos;
 
@@ -905,7 +899,6 @@ public class RAMDictionary implements IRAMDictionary
 		{
 			return data.synsets.get(pos).values().iterator();
 		}
-
 	}
 
 	/**
@@ -917,7 +910,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	protected class HotSwappableExceptionEntryIterator extends HotSwappableIterator<IExceptionEntry>
 	{
-
 		// the part of speech for this iterator
 		private final POS pos;
 
@@ -945,7 +937,6 @@ public class RAMDictionary implements IRAMDictionary
 		{
 			return data.exceptions.get(pos).values().iterator();
 		}
-
 	}
 
 	/**
@@ -956,7 +947,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	protected class HotSwappableSenseEntryIterator extends HotSwappableIterator<ISenseEntry>
 	{
-
 		/**
 		 * Constructs a new hot swappable iterator that iterates over sense
 		 * entries.
@@ -978,7 +968,6 @@ public class RAMDictionary implements IRAMDictionary
 		{
 			return data.senses.values().iterator();
 		}
-
 	}
 
 	/**
@@ -990,7 +979,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	protected class JWIBackgroundDataLoader implements Runnable
 	{
-
 		/*
 		 * (non-Javadoc)
 		 *
@@ -1046,7 +1034,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	public static class DataLoader implements Callable<DictionaryData>
 	{
-
 		/**
 		 * the source of the dictionary data
 		 */
@@ -1074,7 +1061,6 @@ public class RAMDictionary implements IRAMDictionary
 		 */
 		public DictionaryData call()
 		{
-
 			DictionaryData result = new DictionaryData();
 
 			result.version = source.getVersion();
@@ -1091,7 +1077,6 @@ public class RAMDictionary implements IRAMDictionary
 
 			for (POS pos : POS.values())
 			{
-
 				// index words
 				idxWords = result.idxWords.get(pos);
 				for (Iterator<IIndexWord> i = source.getIndexWordIterator(pos); i.hasNext(); )
@@ -1146,7 +1131,6 @@ public class RAMDictionary implements IRAMDictionary
 			result.compactObjects();
 			if (t.isInterrupted())
 				return null;
-
 			return result;
 		}
 
@@ -1175,7 +1159,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	public static class DictionaryData implements Serializable
 	{
-
 		/**
 		 * This serial version UID identifies the last version of JWI whose
 		 * serialized instances of the DictionaryData class are compatible with this
@@ -1336,7 +1319,6 @@ public class RAMDictionary implements IRAMDictionary
 		 */
 		protected ISynset makeSynset(ISynset old)
 		{
-
 			Map<IPointer, List<ISynsetID>> oldIDs = old.getRelatedMap();
 			Map<IPointer, List<ISynsetID>> newIDs = new HashMap<>(oldIDs.size());
 
@@ -1358,7 +1340,6 @@ public class RAMDictionary implements IRAMDictionary
 			List<IWordBuilder> newWords = new ArrayList<>(oldWords.size());
 			for (IWord oldWord : old.getWords())
 				newWords.add(new WordBuilder(old, oldWord));
-
 			return new Synset(old.getID(), old.getLexicalFile(), old.isAdjectiveSatellite(), old.isAdjectiveHead(), old.getGloss(), newWords, newIDs);
 		}
 
@@ -1376,7 +1357,6 @@ public class RAMDictionary implements IRAMDictionary
 		 */
 		protected IWord makeWord(ISynset newSynset, ISynset oldSynset, IWord old)
 		{
-
 			Map<IPointer, List<IWordID>> oldPtrs = old.getRelatedMap();
 			Map<IPointer, List<IWordID>> newPtrs = new HashMap<>(oldPtrs.size());
 			List<IWordID> newList;
@@ -1444,7 +1424,6 @@ public class RAMDictionary implements IRAMDictionary
 		 */
 		public class WordBuilder implements IWordBuilder
 		{
-
 			// final instance fields
 			private final ISynset oldSynset;
 			private final IWord oldWord;
@@ -1499,7 +1478,6 @@ public class RAMDictionary implements IRAMDictionary
 			{
 				throw new UnsupportedOperationException();
 			}
-
 		}
 	}
 
@@ -1642,7 +1620,6 @@ public class RAMDictionary implements IRAMDictionary
 	 */
 	@SuppressWarnings("SameReturnValue") protected static boolean export(IRAMDictionary dict, OutputStream out) throws IOException
 	{
-
 		// load initial data into memory
 		System.out.print("Performing load...");
 		dict.open();
@@ -1656,9 +1633,6 @@ public class RAMDictionary implements IRAMDictionary
 		dict = null;
 		System.gc();
 		System.out.println("(done)");
-
 		return true;
-
 	}
-
 }

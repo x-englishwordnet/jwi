@@ -65,7 +65,6 @@ public class WordnetStemmer extends SimpleStemmer
 	 */
 	public List<String> findStems(String word, POS pos)
 	{
-
 		word = normalize(word);
 
 		if (pos == null)
@@ -109,5 +108,4 @@ public class WordnetStemmer extends SimpleStemmer
 			}
 		return new ArrayList<>(result);
 	}
-
 }

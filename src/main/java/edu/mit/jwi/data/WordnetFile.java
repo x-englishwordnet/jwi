@@ -241,7 +241,7 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 			loadingLock.lock();
 			int len = (int) file.length();
 			ByteBuffer buf = buffer.asReadOnlyBuffer();
-			((Buffer)buf).clear();
+			((Buffer) buf).clear();
 			byte[] data = new byte[len];
 			buf.get(data, 0, len);
 
@@ -270,7 +270,6 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 			{
 				lifecycleLock.unlock();
 			}
-
 		}
 		finally
 		{
@@ -387,7 +386,6 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 	 */
 	public static String getLine(ByteBuffer buf)
 	{
-
 		// we are at end of buffer, return null
 		int limit = buf.limit();
 		if (buf.position() == limit)
@@ -417,7 +415,6 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 					break;
 			}
 		}
-
 		return input.toString();
 	}
 
@@ -437,7 +434,6 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 	 */
 	public static String getLine(ByteBuffer buf, Charset cs)
 	{
-
 		// redirect to old method if no charset specified
 		if (cs == null)
 			return getLine(buf);
@@ -478,6 +474,7 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 
 		// get sub view containing only the bytes of interest
 		// cast is necessary (jdk9 #114)
+		//noinspection RedundantCast
 		buf = (ByteBuffer) buf.duplicate().position(start).limit(end);
 
 		// decode the buffer using the provided character set
@@ -535,7 +532,6 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 	 */
 	protected abstract class LineIterator implements Iterator<String>
 	{
-
 		// fields set on construction
 		protected final ByteBuffer parentBuffer;
 		protected ByteBuffer itrBuffer;
@@ -555,7 +551,7 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 		{
 			parentBuffer = buffer;
 			itrBuffer = buffer.asReadOnlyBuffer();
-			((Buffer)itrBuffer).clear();
+			((Buffer) itrBuffer).clear();
 			key = (key == null) ? null : key.trim();
 			if (key == null || key.length() == 0)
 			{
@@ -616,7 +612,7 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 			{
 				int pos = itrBuffer.position();
 				ByteBuffer newBuf = buffer.asReadOnlyBuffer();
-				((Buffer)newBuf).clear();
+				((Buffer) newBuf).clear();
 				newBuf.position(pos);
 				itrBuffer = newBuf;
 			}
@@ -670,5 +666,4 @@ public abstract class WordnetFile<T> implements ILoadableDataSource<T>
 			throw new UnsupportedOperationException();
 		}
 	}
-
 }

@@ -108,7 +108,6 @@ public class IndexLineParser implements ILineParser<IIndexWord>
 				offset = Integer.parseInt(tokenizer.nextToken());
 				words[i] = new WordID(new SynsetID(offset, pos), lemma);
 			}
-
 			return new IndexWord(lemma, pos, tagSenseCnt, ptrs, words);
 		}
 		catch (Exception e)

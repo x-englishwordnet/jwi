@@ -144,5 +144,4 @@ public class SenseEntry implements ISenseEntry
 			return false;
 		return key.equals(other.getSenseKey());
 	}
-
 }
