@@ -5,11 +5,11 @@
 <img width="256" src="images/mavencentral.png">
 </p>
 
-# JWI Java Wordnet Interface
+# JWI - Java WordNet Interface
 
 MIT's Java WordNet Interface [upstream](https://projects.csail.mit.edu/jwi/).
 
-Rewritten to **Java 8** with lambda expressions.
+Ported to **Java 8** with lambda expressions.
 
 Global LexID check can be disabled.
 
