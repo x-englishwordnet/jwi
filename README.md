@@ -9,7 +9,7 @@
 
 MIT's Java WordNet Interface [upstream](https://projects.csail.mit.edu/jwi/).
 
-Rewritten to Java 8 with lambda expressions.
+Rewritten to **Java 8** with lambda expressions.
 
 Global LexID check can be disabled.
 
@@ -20,6 +20,8 @@ Set dictionary resource matcher (eg can use one index amongst many).
 Set dictionary comparator (eg use a different comparator for index file).
 
 Factored out IContentType key functionality into ContentType key enum.
+
+Extensive JUnit testing (see test classes).
 
 Added Maven support.
     
